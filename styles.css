@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+section {
+    padding: 1rem;
+    margin: 1rem 0;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    margin-top: 0;
+    color:blueviolet;
+}
+
+#profile img {
+    max-width: 150%;
+    max-height: 150%;
+   
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    margin: 0.5rem 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    header, section {
+        padding: 0.5rem;
+    }
+
+
+    a {
+        margin: 0.25rem 0;
+    }
+}
